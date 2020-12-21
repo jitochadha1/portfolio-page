@@ -11,7 +11,7 @@ A beginning online portfolio website to showcase my work.
 <img src="screenshot.png">
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://jitochadha1.github.io/portfolio-page/
 
 ## Contribution
 Made with ❤️ by [Jito Chadha]
