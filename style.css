@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #fce138;
+    --primary-color: #082332;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
 }
@@ -32,11 +32,12 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
+    font-weight: bold;
     margin: 0;
     text-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 header a {
-    color: #fce138;
+    color: #082332;
     text-decoration: none;
 }
 header nav {
@@ -51,7 +52,7 @@ header nav ul {
 }
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0,0,0,.5);
 }
@@ -69,7 +70,8 @@ header nav ul li a {
 }
 article {
     display: block;
-    padding: 3%;
+    padding: 2%;
+    overflow: auto;
 }
 article h2 {
     float: left;
@@ -81,7 +83,8 @@ article h2 {
 article div {
     float: right;
     margin: 0 1.5%;
-    width: 70%
+    width: 70%;
+ 
 }
 article nav ul {
     display: flex;
@@ -89,4 +92,62 @@ article nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+
+.img-grid {
+    width: 70%;
+    display: grid;
+    border: 2px solid #024e76;
+    color: #024e76;
+    font-size: 1.2rem;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    grid-gap: 1px;
+}
+.img {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+.img1 {
+    background-image: url("boa.jpg");
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+.img2 {
+    background-image: url("fish.jpg");
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+.img3 {
+    background-image: url("tiger_india.jpg");
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+.img4 {
+    background-image: url("hero-bg.jpg");
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  
+}
+.img5 {
+    background-image: url("boa.jpg");
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
