@@ -37,7 +37,7 @@ header h1 {
     text-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 header a {
-    color: #082332;
+    color: white;
     text-decoration: none;
 }
 header nav {
@@ -67,6 +67,7 @@ header nav ul li a {
     position: absolute;
     bottom: 0;
     right: 0;
+    color: white;
 }
 article {
     display: block;
@@ -76,14 +77,14 @@ article {
 article h2 {
     float: left;
     width: 23%;
-    padding: 0 10px;
     text-align: right;
-    border-right: 3px solid;
 }
 article div {
     float: right;
-    margin: 0 1.5%;
+    border-left: 3px solid;
+    padding-left: 25px;
     width: 70%;
+    overflow: auto;
  
 }
 article nav ul {
@@ -98,22 +99,31 @@ article nav ul {
 .img-grid {
     width: 70%;
     display: grid;
-    border: 2px solid #024e76;
-    color: #024e76;
+    color: white;
     font-size: 1.2rem;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, 300px);
-    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    flex-wrap: wrap;
+    min-height: 450px;
+    padding: 5px;
+    border-left: 3px solid #39a6b2;
+    padding-left: 15px;
+    
 }
 .img {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    vertical-align: text-bottom;
 }
 
 
 .img1 {
-    background-image: url("boa.jpg");
+    background-image: url("nqube.png");
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -137,7 +147,7 @@ article nav ul {
 
 }
 .img4 {
-    background-image: url("hero-bg.jpg");
+    background-image: url("boa.jpg");
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
@@ -145,7 +155,7 @@ article nav ul {
   
 }
 .img5 {
-    background-image: url("boa.jpg");
+    background-image: url("dnawiki2.png");
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;

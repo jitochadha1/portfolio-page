@@ -8,7 +8,7 @@ A beginning online portfolio website to showcase my work.
 * CSS
 
 ## Some screeshots of the updated can be found here
-<img src="screenshot.png">
+<img src="portfolio_img.png">
 
 ## Website
 https://jitochadha1.github.io/portfolio-page/
