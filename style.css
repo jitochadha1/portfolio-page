@@ -22,7 +22,7 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("hero-bg.jpg");
+    background-image: url("tiger_india.jpg");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
@@ -56,13 +56,37 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 .banner {
-    background-image: url("hero-bg.jpg");
+    background-image: url("tiger_india.jpg");
     background-size: cover;
-    height: 400px;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
 }
 .banner h2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+article {
+    display: block;
+    padding: 3%;
+}
+article h2 {
+    float: left;
+    width: 23%;
+    padding: 0 10px;
     text-align: right;
-    text-align: bottom;
-    position: relative;
-    
+    border-right: 3px solid;
+}
+article div {
+    float: right;
+    margin: 0 1.5%;
+    width: 70%
+}
+article nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
