@@ -59,8 +59,9 @@ header nav ul li a {
 .banner {
     background-image: url("tiger_india.jpg");
     background-size: cover;
+    background-position: 80%;
     background-repeat: no-repeat;
-    height: 250px;
+    min-height: 325px;
     position: relative;
 }
 .banner h2 {
@@ -76,8 +77,12 @@ article {
 }
 article h2 {
     float: left;
-    width: 23%;
+    width: 29%;
     text-align: right;
+}
+.aboutme-text img {
+    min-height: 100px;
+    max-height: 50vw;
 }
 article div {
     float: right;
@@ -93,8 +98,13 @@ article nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    padding: 15px;
 }
 
+article nav ul a {
+    color: var(--tertiary-color);
+    font-weight: bold;
+}
 
 .img-grid {
     width: 70%;
@@ -109,6 +119,7 @@ article nav ul {
     padding: 5px;
     border-left: 3px solid #39a6b2;
     padding-left: 15px;
+    font-weight: bold;
     
 }
 .img {
@@ -119,6 +130,19 @@ article nav ul {
     height: 100%;
     width: 100%;
     vertical-align: text-bottom;
+    position: relative;
+}
+
+.work-title {
+    color:white;
+    border: 2px solid;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: auto;
+    background-color: var(--tertiary-color);
+    text-align: center;
+    padding: 10px;
 }
 
 
