@@ -125,13 +125,12 @@ article nav ul a {
 .img-grid {
     width: 70%;
     display: grid;
-    
     font-size: 1.3vw;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 5px;
     flex-wrap: wrap;
-    min-height: 55vh;
+    min-height: 35vh;
     padding: 5px;
     border-left: 5px solid var(--secondary-color);
     padding-left: 25px;
