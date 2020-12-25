@@ -64,7 +64,7 @@ header nav ul li a {
     background-repeat: no-repeat;
     min-height: 20vw;
     position: relative;
-    border-bottom: 5px solid var(--secondary-color);
+    border-bottom: .25vw solid var(--secondary-color);
 }
 .banner h2 {
     position: absolute;
@@ -101,7 +101,7 @@ article p {
 }
 article div {
     float: right;
-    border-left: 5px solid var(--secondary-color);
+    border-left: .25vw solid var(--secondary-color);
     padding-left: 25px;
     width: 70%;
     overflow: auto;
@@ -132,7 +132,7 @@ article nav ul a {
     flex-wrap: wrap;
     min-height: 35vh;
     padding: 5px;
-    border-left: 5px solid var(--secondary-color);
+    border-left: .25vw solid var(--secondary-color);
     padding-left: 25px;
     font-weight: bold;
     
@@ -162,15 +162,14 @@ article nav ul a {
     color: var(--primary-color);
 }
 
-
 .img1 {
     background-image: url("nqube.png");
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    
 }
+
 .img2 {
     background-image: url("fish.jpg");
     grid-column-start: 3;
