@@ -24,7 +24,7 @@ header {
     top: 0;
     background-image: url("tiger_india.jpg");
     background-size: cover;
-    background-position: 80%;
+    background-position: right 0vw bottom 25vw;
     background-attachment: fixed;
     z-index: 9999
 }
@@ -60,11 +60,13 @@ header nav ul li a {
 .banner {
     background-image: url("tiger_india.jpg");
     background-size: cover;
-    background-position: 80%;
+    background-position: right 0vw bottom 25vw;
+    display: flex;
     background-repeat: no-repeat;
     min-height: 20vw;
     position: relative;
     border-bottom: .25vw solid var(--secondary-color);
+    background-attachment: fixed;
 }
 .banner h2 {
     position: absolute;
@@ -200,4 +202,128 @@ article nav ul a {
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
+}
+/* MEDIA QUERY FOR screen widths in descending order*/
+@media screen and (max-width: 2000px) {
+    header {
+        background-position: right 0vw bottom 0;
+    }
+
+    .banner {
+        background-position: right 0vw bottom 0;
+    }
+    
+}
+@media screen and (max-width: 1700px) {
+    header {
+        background-position: right 0vw bottom 6vw;
+    }
+
+    .banner {
+        background-position: right 0vw bottom 6vw;
+    }
+    
+}
+@media screen and (max-width: 1600px) {
+    header {
+        background-position: right -2vw bottom 6vw;
+    }
+
+    .banner {
+        background-position: right -2vw bottom 6vw;
+    }
+    
+}
+@media screen and (max-width: 1500px) {
+    header {
+        background-position: right -7vw bottom 11vw;
+    }
+
+    .banner {
+        background-position: right -7vw bottom 11vw;
+    }
+    
+}
+@media screen and (max-width: 1400px) {
+    header {
+        background-position: right -10vw bottom 14vw;
+    }
+
+    .banner {
+        background-position: right -10vw bottom 14vw;
+    }
+    
+}
+@media screen and (max-width: 1300px) {
+    header {
+        background-position: right -16vw bottom 16vw;
+    }
+
+    .banner {
+        background-position: right -16vw bottom 16vw;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    header {
+        background-position: right -21vw bottom 21vw;
+    }
+
+    .banner {
+        background-position: right -21vw bottom 21vw;
+    }
+    
+}
+@media screen and (max-width: 1100px) {
+    header {
+        background-position: right -25vw bottom 25vw;
+    }
+
+    .banner {
+        background-position: right -25vw bottom 25vw;
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    header {
+        background-position: right -40vw bottom 35vw;
+    }
+
+    .banner {
+        background-position: right -40vw bottom 35vw;
+    }
+    
+}
+@media screen and (max-width: 900px) {
+    header {
+        background-position: right -50vw bottom 45vw;
+    }
+
+    .banner {
+        background-position: right -50vw bottom 45vw;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    header {
+        background-position: right -60vw bottom 50vw;
+    }
+
+    .banner {
+        background-position: right -60vw bottom 50vw;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    header {
+        background-position: right -70vw bottom 60vw;
+    }
+
+    .banner {
+        background-position: right -70vw bottom 60vw;
+    }
+    
+}
+
+    
 }
