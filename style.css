@@ -128,8 +128,8 @@ article nav ul a {
     width: 70%;
     display: grid;
     font-size: 1.3vw;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-gap: 5px;
     flex-wrap: wrap;
     min-height: 35vh;
@@ -169,13 +169,13 @@ article nav ul a {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 4;
 }
 
 .img2 {
     background-image: url("fish.jpg");
     grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
 
@@ -183,32 +183,39 @@ article nav ul a {
 .img3 {
     background-image: url("tiger_india.jpg");
     grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 4;
 
 }
 .img4 {
     background-image: url("boa.jpg");
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
   
 }
 .img5 {
     background-image: url("dnawiki2.png");
     grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
 }
 .img6 {
     background-image: url("tradingnews.png");
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.img7 {
+    background-image: url("flowers.png");
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
 }
 /* MEDIA QUERY FOR screen widths in descending order*/
 @media screen and (max-width: 2000px) {
